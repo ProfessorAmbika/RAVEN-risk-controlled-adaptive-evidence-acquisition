@@ -1,0 +1,126 @@
+== date
+Sat Oct 17 03:19:22 AM UTC 2026
+== GPU
+name, memory.total [MiB], driver_version
+NVIDIA GeForce RTX 3090, 24576 MiB, 590.48.01
+== CPU / OS
+CPU(s):                                  32
+Model name:                              AMD Ryzen 9 5950X 16-Core Processor
+Linux 6.8.0-138-generic
+               total        used        free      shared  buff/cache   available
+Mem:              31           1           4           0          25          28
+== python
+Python 3.11.17
+torch 2.6.0+cu124 cuda 12.4 cudnn 90100
+transformers 5.19.0 numpy 2.4.6
+accelerate 1.15.0
+qwen_vl_utils n/a AttributeError
+datasets 5.0.1
+huggingface_hub 2.2.0
+PIL 12.3.0
+pyarrow 26.0.0
+spacy 3.8.16
+hf dataset yifanzhang114/MME-RealWorld-lmms-eval f157390129e8d2b60757eb68d340aade9446b52b
+hf model OpenGVLab/InternVL3-8B-hf 259a3b64a14623c0ec91a045cb43f7c5af5fa6af
+hf model Qwen/Qwen2.5-VL-7B-Instruct cc594898137f460bfe9f0759e9844b3ce807cfb5
+hf model Qwen/Qwen2.5-VL-3B-Instruct 66285546d2b821cf421d4f5eb2576359d3770cd3
+hf model llava-hf/llava-onevision-qwen2-7b-ov-hf 0d50680527681998e456c7b78950205bedd8a068
+== ZoomEye commit
+6762d79f3153552d03b49a2d5c07caaa44fac375
+== pip freeze
+accelerate==1.15.0
+aiohappyeyeballs==2.7.1
+aiohttp==3.14.5
+aiosignal==1.4.0
+annotated-doc==0.0.5
+annotated-types==0.8.0
+anyio==4.15.1
+attrs==26.1.0
+av==18.1.0
+blis==1.3.3
+catalogue==2.0.10
+certifi==2026.7.22
+charset-normalizer==3.5.2
+click==8.5.0
+cloudpathlib==0.26.0
+confection==1.3.3
+cymem==2.0.13
+datasets==5.0.1
+dill==0.4.1
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+filelock==3.32.3
+frozenlist==1.8.0
+fsspec==2026.6.0
+h11==0.16.0
+hf-xet==1.7.0
+httpcore==1.0.9
+httpcore2==2.13.1
+httpx==0.28.1
+httpx2==2.13.1
+huggingface_hub==2.2.0
+idna==3.20
+Jinja2==3.1.6
+markdown-it-py==4.2.0
+MarkupSafe==3.0.3
+mdurl==0.1.2
+mpmath==1.3.0
+multidict==7.1.0
+multiprocess==0.70.19
+murmurhash==1.0.15
+networkx==3.6.1
+numpy==2.4.6
+nvidia-cublas-cu12==12.4.5.8
+nvidia-cuda-cupti-cu12==12.4.127
+nvidia-cuda-nvrtc-cu12==12.4.127
+nvidia-cuda-runtime-cu12==12.4.127
+nvidia-cudnn-cu12==9.1.0.70
+nvidia-cufft-cu12==11.2.1.3
+nvidia-curand-cu12==10.3.5.147
+nvidia-cusolver-cu12==11.6.1.9
+nvidia-cusparse-cu12==12.3.1.170
+nvidia-cusparselt-cu12==0.6.2
+nvidia-nccl-cu12==2.21.5
+nvidia-nvjitlink-cu12==12.4.127
+nvidia-nvtx-cu12==12.4.127
+packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1785888127/work
+pandas==3.0.6
+pillow==12.3.0
+preshed==3.0.13
+propcache==0.5.4
+psutil==7.2.2
+pyarrow==26.0.0
+pydantic==2.14.1
+pydantic_core==2.50.1
+Pygments==2.21.0
+python-dateutil==2.9.0.post0
+PyYAML==6.0.3
+qwen-vl-utils==0.0.14
+regex==2026.9.29
+requests==2.34.2
+rich==15.0.0
+safetensors==0.8.0
+shellingham==1.5.4
+six==1.17.0
+smart_open==8.0.3
+spacy==3.8.16
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+srsly==2.5.4
+sympy==1.13.1
+thinc==8.3.13
+tokenizers==0.23.3
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+tqdm==4.70.1
+transformers==5.19.0
+triton==3.2.0
+truststore==0.10.5
+typer==0.27.3
+typing-inspection==0.4.4
+typing_extensions==4.16.0
+urllib3==2.8.0
+wasabi==1.1.3
+weasel==1.0.0
+wrapt==2.5.1
+xxhash==4.0.1
+yarl==1.25.1
